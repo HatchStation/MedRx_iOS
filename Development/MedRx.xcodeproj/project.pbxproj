@@ -10,49 +10,80 @@
 		60BDB81118473D58006EC735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BDB81018473D58006EC735 /* Foundation.framework */; };
 		60BDB81318473D58006EC735 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BDB81218473D58006EC735 /* CoreGraphics.framework */; };
 		60BDB81518473D58006EC735 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BDB81418473D58006EC735 /* UIKit.framework */; };
-		60BDB81B18473D58006EC735 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60BDB81918473D58006EC735 /* InfoPlist.strings */; };
-		60BDB81D18473D58006EC735 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB81C18473D58006EC735 /* main.m */; };
-		60BDB82118473D58006EC735 /* MedRxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB82018473D58006EC735 /* MedRxAppDelegate.m */; };
-		60BDB82418473D58006EC735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BDB82218473D58006EC735 /* Main.storyboard */; };
-		60BDB82718473D58006EC735 /* MedRxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB82618473D58006EC735 /* MedRxViewController.m */; };
-		60BDB82918473D58006EC735 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BDB82818473D58006EC735 /* Images.xcassets */; };
-		60BDB83018473D58006EC735 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BDB82F18473D58006EC735 /* XCTest.framework */; };
-		60BDB83118473D58006EC735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BDB81018473D58006EC735 /* Foundation.framework */; };
-		60BDB83218473D58006EC735 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BDB81418473D58006EC735 /* UIKit.framework */; };
-		60BDB83A18473D58006EC735 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60BDB83818473D58006EC735 /* InfoPlist.strings */; };
-		60BDB83C18473D58006EC735 /* MedRxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB83B18473D58006EC735 /* MedRxTests.m */; };
+		60BDB871184760A4006EC735 /* MedRxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB848184760A4006EC735 /* MedRxAppDelegate.m */; };
+		60BDB872184760A4006EC735 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB84C184760A4006EC735 /* AFHTTPRequestOperation.m */; };
+		60BDB873184760A4006EC735 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB84E184760A4006EC735 /* AFHTTPRequestOperationManager.m */; };
+		60BDB874184760A4006EC735 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB850184760A4006EC735 /* AFHTTPSessionManager.m */; };
+		60BDB875184760A4006EC735 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB853184760A4006EC735 /* AFNetworkReachabilityManager.m */; };
+		60BDB876184760A4006EC735 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB855184760A4006EC735 /* AFSecurityPolicy.m */; };
+		60BDB877184760A4006EC735 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB857184760A4006EC735 /* AFURLConnectionOperation.m */; };
+		60BDB878184760A4006EC735 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB859184760A4006EC735 /* AFURLRequestSerialization.m */; };
+		60BDB879184760A4006EC735 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB85B184760A4006EC735 /* AFURLResponseSerialization.m */; };
+		60BDB87A184760A4006EC735 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB85D184760A4006EC735 /* AFURLSessionManager.m */; };
+		60BDB87B184760A4006EC735 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB860184760A4006EC735 /* AFNetworkActivityIndicatorManager.m */; };
+		60BDB87C184760A4006EC735 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB862184760A4006EC735 /* UIActivityIndicatorView+AFNetworking.m */; };
+		60BDB87D184760A4006EC735 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB864184760A4006EC735 /* UIAlertView+AFNetworking.m */; };
+		60BDB87E184760A4006EC735 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB866184760A4006EC735 /* UIButton+AFNetworking.m */; };
+		60BDB87F184760A4006EC735 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB868184760A4006EC735 /* UIImageView+AFNetworking.m */; };
+		60BDB880184760A4006EC735 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB86B184760A4006EC735 /* UIProgressView+AFNetworking.m */; };
+		60BDB881184760A4006EC735 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB86D184760A4006EC735 /* UIWebView+AFNetworking.m */; };
+		60BDB882184760A4006EC735 /* MedRxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB870184760A4006EC735 /* MedRxViewController.m */; };
+		60BDB89D18476128006EC735 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60BDB89618476128006EC735 /* InfoPlist.strings */; };
+		60BDB89E18476128006EC735 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BDB89818476128006EC735 /* Images.xcassets */; };
+		60BDB89F18476128006EC735 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB89918476128006EC735 /* main.m */; };
+		60BDB8A1184761C8006EC735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BDB89318476128006EC735 /* Main.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		60BDB83318473D58006EC735 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 60BDB80518473D58006EC735 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 60BDB80C18473D58006EC735;
-			remoteInfo = MedRx;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		60BDB80D18473D58006EC735 /* MedRx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedRx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BDB81018473D58006EC735 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		60BDB81218473D58006EC735 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		60BDB81418473D58006EC735 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		60BDB81818473D58006EC735 /* MedRx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedRx-Info.plist"; sourceTree = "<group>"; };
-		60BDB81A18473D58006EC735 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		60BDB81C18473D58006EC735 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		60BDB81E18473D58006EC735 /* MedRx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MedRx-Prefix.pch"; sourceTree = "<group>"; };
-		60BDB81F18473D58006EC735 /* MedRxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedRxAppDelegate.h; sourceTree = "<group>"; };
-		60BDB82018473D58006EC735 /* MedRxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedRxAppDelegate.m; sourceTree = "<group>"; };
-		60BDB82318473D58006EC735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		60BDB82518473D58006EC735 /* MedRxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedRxViewController.h; sourceTree = "<group>"; };
-		60BDB82618473D58006EC735 /* MedRxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedRxViewController.m; sourceTree = "<group>"; };
-		60BDB82818473D58006EC735 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		60BDB82E18473D58006EC735 /* MedRxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedRxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BDB82F18473D58006EC735 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		60BDB83718473D58006EC735 /* MedRxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedRxTests-Info.plist"; sourceTree = "<group>"; };
-		60BDB83918473D58006EC735 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		60BDB83B18473D58006EC735 /* MedRxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedRxTests.m; sourceTree = "<group>"; };
+		60BDB847184760A4006EC735 /* MedRxAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedRxAppDelegate.h; sourceTree = "<group>"; };
+		60BDB848184760A4006EC735 /* MedRxAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedRxAppDelegate.m; sourceTree = "<group>"; };
+		60BDB84B184760A4006EC735 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		60BDB84C184760A4006EC735 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		60BDB84D184760A4006EC735 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		60BDB84E184760A4006EC735 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		60BDB84F184760A4006EC735 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		60BDB850184760A4006EC735 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		60BDB851184760A4006EC735 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		60BDB852184760A4006EC735 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		60BDB853184760A4006EC735 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		60BDB854184760A4006EC735 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		60BDB855184760A4006EC735 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		60BDB856184760A4006EC735 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		60BDB857184760A4006EC735 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		60BDB858184760A4006EC735 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		60BDB859184760A4006EC735 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		60BDB85A184760A4006EC735 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		60BDB85B184760A4006EC735 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		60BDB85C184760A4006EC735 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		60BDB85D184760A4006EC735 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		60BDB85F184760A4006EC735 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		60BDB860184760A4006EC735 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		60BDB861184760A4006EC735 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		60BDB862184760A4006EC735 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		60BDB863184760A4006EC735 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		60BDB864184760A4006EC735 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		60BDB865184760A4006EC735 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		60BDB866184760A4006EC735 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		60BDB867184760A4006EC735 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		60BDB868184760A4006EC735 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		60BDB869184760A4006EC735 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		60BDB86A184760A4006EC735 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		60BDB86B184760A4006EC735 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		60BDB86C184760A4006EC735 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		60BDB86D184760A4006EC735 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		60BDB86F184760A4006EC735 /* MedRxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedRxViewController.h; sourceTree = "<group>"; };
+		60BDB870184760A4006EC735 /* MedRxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedRxViewController.m; sourceTree = "<group>"; };
+		60BDB89418476128006EC735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		60BDB89718476128006EC735 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		60BDB89818476128006EC735 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60BDB89918476128006EC735 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60BDB89A18476128006EC735 /* MedRx-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MedRx-Info.plist"; sourceTree = "<group>"; };
+		60BDB89B18476128006EC735 /* MedRx-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MedRx-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +97,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60BDB82B18473D58006EC735 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60BDB83018473D58006EC735 /* XCTest.framework in Frameworks */,
-				60BDB83218473D58006EC735 /* UIKit.framework in Frameworks */,
-				60BDB83118473D58006EC735 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				60BDB81618473D58006EC735 /* MedRx */,
-				60BDB83518473D58006EC735 /* MedRxTests */,
 				60BDB80F18473D58006EC735 /* Frameworks */,
 				60BDB80E18473D58006EC735 /* Products */,
 			);
@@ -93,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				60BDB80D18473D58006EC735 /* MedRx.app */,
-				60BDB82E18473D58006EC735 /* MedRxTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,12 +131,7 @@
 		60BDB81618473D58006EC735 /* MedRx */ = {
 			isa = PBXGroup;
 			children = (
-				60BDB81F18473D58006EC735 /* MedRxAppDelegate.h */,
-				60BDB82018473D58006EC735 /* MedRxAppDelegate.m */,
-				60BDB82218473D58006EC735 /* Main.storyboard */,
-				60BDB82518473D58006EC735 /* MedRxViewController.h */,
-				60BDB82618473D58006EC735 /* MedRxViewController.m */,
-				60BDB82818473D58006EC735 /* Images.xcassets */,
+				60BDB845184760A4006EC735 /* Classes */,
 				60BDB81718473D58006EC735 /* Supporting Files */,
 			);
 			path = MedRx;
@@ -126,30 +140,115 @@
 		60BDB81718473D58006EC735 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				60BDB81818473D58006EC735 /* MedRx-Info.plist */,
-				60BDB81918473D58006EC735 /* InfoPlist.strings */,
-				60BDB81C18473D58006EC735 /* main.m */,
-				60BDB81E18473D58006EC735 /* MedRx-Prefix.pch */,
+				60BDB89218476128006EC735 /* Base.lproj */,
+				60BDB89518476128006EC735 /* en.lproj */,
+				60BDB89818476128006EC735 /* Images.xcassets */,
+				60BDB89918476128006EC735 /* main.m */,
+				60BDB89A18476128006EC735 /* MedRx-Info.plist */,
+				60BDB89B18476128006EC735 /* MedRx-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60BDB83518473D58006EC735 /* MedRxTests */ = {
+		60BDB845184760A4006EC735 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				60BDB83B18473D58006EC735 /* MedRxTests.m */,
-				60BDB83618473D58006EC735 /* Supporting Files */,
+				60BDB846184760A4006EC735 /* App Delegate */,
+				60BDB849184760A4006EC735 /* Networks */,
+				60BDB86E184760A4006EC735 /* View Controllers */,
 			);
-			path = MedRxTests;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		60BDB83618473D58006EC735 /* Supporting Files */ = {
+		60BDB846184760A4006EC735 /* App Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				60BDB83718473D58006EC735 /* MedRxTests-Info.plist */,
-				60BDB83818473D58006EC735 /* InfoPlist.strings */,
+				60BDB847184760A4006EC735 /* MedRxAppDelegate.h */,
+				60BDB848184760A4006EC735 /* MedRxAppDelegate.m */,
 			);
-			name = "Supporting Files";
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		60BDB849184760A4006EC735 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				60BDB84A184760A4006EC735 /* AFNetworking */,
+				60BDB85E184760A4006EC735 /* UIKit+AFNetworking */,
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		60BDB84A184760A4006EC735 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				60BDB84B184760A4006EC735 /* AFHTTPRequestOperation.h */,
+				60BDB84C184760A4006EC735 /* AFHTTPRequestOperation.m */,
+				60BDB84D184760A4006EC735 /* AFHTTPRequestOperationManager.h */,
+				60BDB84E184760A4006EC735 /* AFHTTPRequestOperationManager.m */,
+				60BDB84F184760A4006EC735 /* AFHTTPSessionManager.h */,
+				60BDB850184760A4006EC735 /* AFHTTPSessionManager.m */,
+				60BDB851184760A4006EC735 /* AFNetworking.h */,
+				60BDB852184760A4006EC735 /* AFNetworkReachabilityManager.h */,
+				60BDB853184760A4006EC735 /* AFNetworkReachabilityManager.m */,
+				60BDB854184760A4006EC735 /* AFSecurityPolicy.h */,
+				60BDB855184760A4006EC735 /* AFSecurityPolicy.m */,
+				60BDB856184760A4006EC735 /* AFURLConnectionOperation.h */,
+				60BDB857184760A4006EC735 /* AFURLConnectionOperation.m */,
+				60BDB858184760A4006EC735 /* AFURLRequestSerialization.h */,
+				60BDB859184760A4006EC735 /* AFURLRequestSerialization.m */,
+				60BDB85A184760A4006EC735 /* AFURLResponseSerialization.h */,
+				60BDB85B184760A4006EC735 /* AFURLResponseSerialization.m */,
+				60BDB85C184760A4006EC735 /* AFURLSessionManager.h */,
+				60BDB85D184760A4006EC735 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		60BDB85E184760A4006EC735 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				60BDB85F184760A4006EC735 /* AFNetworkActivityIndicatorManager.h */,
+				60BDB860184760A4006EC735 /* AFNetworkActivityIndicatorManager.m */,
+				60BDB861184760A4006EC735 /* UIActivityIndicatorView+AFNetworking.h */,
+				60BDB862184760A4006EC735 /* UIActivityIndicatorView+AFNetworking.m */,
+				60BDB863184760A4006EC735 /* UIAlertView+AFNetworking.h */,
+				60BDB864184760A4006EC735 /* UIAlertView+AFNetworking.m */,
+				60BDB865184760A4006EC735 /* UIButton+AFNetworking.h */,
+				60BDB866184760A4006EC735 /* UIButton+AFNetworking.m */,
+				60BDB867184760A4006EC735 /* UIImageView+AFNetworking.h */,
+				60BDB868184760A4006EC735 /* UIImageView+AFNetworking.m */,
+				60BDB869184760A4006EC735 /* UIKit+AFNetworking.h */,
+				60BDB86A184760A4006EC735 /* UIProgressView+AFNetworking.h */,
+				60BDB86B184760A4006EC735 /* UIProgressView+AFNetworking.m */,
+				60BDB86C184760A4006EC735 /* UIWebView+AFNetworking.h */,
+				60BDB86D184760A4006EC735 /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		60BDB86E184760A4006EC735 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				60BDB86F184760A4006EC735 /* MedRxViewController.h */,
+				60BDB870184760A4006EC735 /* MedRxViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		60BDB89218476128006EC735 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				60BDB89318476128006EC735 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		60BDB89518476128006EC735 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				60BDB89618476128006EC735 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,24 +271,6 @@
 			productReference = 60BDB80D18473D58006EC735 /* MedRx.app */;
 			productType = "com.apple.product-type.application";
 		};
-		60BDB82D18473D58006EC735 /* MedRxTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 60BDB84218473D58006EC735 /* Build configuration list for PBXNativeTarget "MedRxTests" */;
-			buildPhases = (
-				60BDB82A18473D58006EC735 /* Sources */,
-				60BDB82B18473D58006EC735 /* Frameworks */,
-				60BDB82C18473D58006EC735 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				60BDB83418473D58006EC735 /* PBXTargetDependency */,
-			);
-			name = MedRxTests;
-			productName = MedRxTests;
-			productReference = 60BDB82E18473D58006EC735 /* MedRxTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,11 +280,6 @@
 				CLASSPREFIX = MedRx;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Remind Technologies";
-				TargetAttributes = {
-					60BDB82D18473D58006EC735 = {
-						TestTargetID = 60BDB80C18473D58006EC735;
-					};
-				};
 			};
 			buildConfigurationList = 60BDB80818473D58006EC735 /* Build configuration list for PBXProject "MedRx" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,7 +295,6 @@
 			projectRoot = "";
 			targets = (
 				60BDB80C18473D58006EC735 /* MedRx */,
-				60BDB82D18473D58006EC735 /* MedRxTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,17 +304,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60BDB82918473D58006EC735 /* Images.xcassets in Resources */,
-				60BDB81B18473D58006EC735 /* InfoPlist.strings in Resources */,
-				60BDB82418473D58006EC735 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		60BDB82C18473D58006EC735 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60BDB83A18473D58006EC735 /* InfoPlist.strings in Resources */,
+				60BDB8A1184761C8006EC735 /* Main.storyboard in Resources */,
+				60BDB89E18476128006EC735 /* Images.xcassets in Resources */,
+				60BDB89D18476128006EC735 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,51 +317,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60BDB82718473D58006EC735 /* MedRxViewController.m in Sources */,
-				60BDB81D18473D58006EC735 /* main.m in Sources */,
-				60BDB82118473D58006EC735 /* MedRxAppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		60BDB82A18473D58006EC735 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60BDB83C18473D58006EC735 /* MedRxTests.m in Sources */,
+				60BDB880184760A4006EC735 /* UIProgressView+AFNetworking.m in Sources */,
+				60BDB877184760A4006EC735 /* AFURLConnectionOperation.m in Sources */,
+				60BDB87F184760A4006EC735 /* UIImageView+AFNetworking.m in Sources */,
+				60BDB879184760A4006EC735 /* AFURLResponseSerialization.m in Sources */,
+				60BDB87E184760A4006EC735 /* UIButton+AFNetworking.m in Sources */,
+				60BDB87D184760A4006EC735 /* UIAlertView+AFNetworking.m in Sources */,
+				60BDB872184760A4006EC735 /* AFHTTPRequestOperation.m in Sources */,
+				60BDB871184760A4006EC735 /* MedRxAppDelegate.m in Sources */,
+				60BDB89F18476128006EC735 /* main.m in Sources */,
+				60BDB87B184760A4006EC735 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				60BDB875184760A4006EC735 /* AFNetworkReachabilityManager.m in Sources */,
+				60BDB881184760A4006EC735 /* UIWebView+AFNetworking.m in Sources */,
+				60BDB87C184760A4006EC735 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				60BDB87A184760A4006EC735 /* AFURLSessionManager.m in Sources */,
+				60BDB873184760A4006EC735 /* AFHTTPRequestOperationManager.m in Sources */,
+				60BDB876184760A4006EC735 /* AFSecurityPolicy.m in Sources */,
+				60BDB882184760A4006EC735 /* MedRxViewController.m in Sources */,
+				60BDB874184760A4006EC735 /* AFHTTPSessionManager.m in Sources */,
+				60BDB878184760A4006EC735 /* AFURLRequestSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		60BDB83418473D58006EC735 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 60BDB80C18473D58006EC735 /* MedRx */;
-			targetProxy = 60BDB83318473D58006EC735 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		60BDB81918473D58006EC735 /* InfoPlist.strings */ = {
+		60BDB89318476128006EC735 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				60BDB81A18473D58006EC735 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		60BDB82218473D58006EC735 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				60BDB82318473D58006EC735 /* Base */,
+				60BDB89418476128006EC735 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		60BDB83818473D58006EC735 /* InfoPlist.strings */ = {
+		60BDB89618476128006EC735 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				60BDB83918473D58006EC735 /* en */,
+				60BDB89718476128006EC735 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -400,48 +459,6 @@
 			};
 			name = Release;
 		};
-		60BDB84318473D58006EC735 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MedRx.app/MedRx";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MedRx/MedRx-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "MedRxTests/MedRxTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		60BDB84418473D58006EC735 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MedRx.app/MedRx";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MedRx/MedRx-Prefix.pch";
-				INFOPLIST_FILE = "MedRxTests/MedRxTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -461,14 +478,7 @@
 				60BDB84118473D58006EC735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		60BDB84218473D58006EC735 /* Build configuration list for PBXNativeTarget "MedRxTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				60BDB84318473D58006EC735 /* Debug */,
-				60BDB84418473D58006EC735 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
