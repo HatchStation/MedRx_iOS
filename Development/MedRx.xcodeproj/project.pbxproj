@@ -32,6 +32,12 @@
 		60BDB89E18476128006EC735 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BDB89818476128006EC735 /* Images.xcassets */; };
 		60BDB89F18476128006EC735 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDB89918476128006EC735 /* main.m */; };
 		60BDB8A1184761C8006EC735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BDB89318476128006EC735 /* Main.storyboard */; };
+		60BDB8AB18476911006EC735 /* activity_view.png in Resources */ = {isa = PBXBuildFile; fileRef = 60BDB8A518476911006EC735 /* activity_view.png */; };
+		60BDB8AC18476911006EC735 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 60BDB8A618476911006EC735 /* background.png */; };
+		60BDB8AD18476911006EC735 /* doctor_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 60BDB8A718476911006EC735 /* doctor_icon.png */; };
+		60BDB8AE18476911006EC735 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 60BDB8A818476911006EC735 /* loading.png */; };
+		60BDB8AF18476911006EC735 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 60BDB8A918476911006EC735 /* logo.png */; };
+		60BDB8B018476911006EC735 /* Screen 1.psd in Resources */ = {isa = PBXBuildFile; fileRef = 60BDB8AA18476911006EC735 /* Screen 1.psd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +90,12 @@
 		60BDB89918476128006EC735 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60BDB89A18476128006EC735 /* MedRx-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MedRx-Info.plist"; sourceTree = "<group>"; };
 		60BDB89B18476128006EC735 /* MedRx-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MedRx-Prefix.pch"; sourceTree = "<group>"; };
+		60BDB8A518476911006EC735 /* activity_view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = activity_view.png; sourceTree = "<group>"; };
+		60BDB8A618476911006EC735 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		60BDB8A718476911006EC735 /* doctor_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doctor_icon.png; sourceTree = "<group>"; };
+		60BDB8A818476911006EC735 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+		60BDB8A918476911006EC735 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		60BDB8AA18476911006EC735 /* Screen 1.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Screen 1.psd"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				60BDB845184760A4006EC735 /* Classes */,
+				60BDB8A218476280006EC735 /* Resources */,
 				60BDB81718473D58006EC735 /* Supporting Files */,
 			);
 			path = MedRx;
@@ -251,6 +264,35 @@
 			path = en.lproj;
 			sourceTree = "<group>";
 		};
+		60BDB8A218476280006EC735 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60BDB8A318476280006EC735 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60BDB8A318476280006EC735 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				60BDB8A418476911006EC735 /* Splash */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		60BDB8A418476911006EC735 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				60BDB8A518476911006EC735 /* activity_view.png */,
+				60BDB8A618476911006EC735 /* background.png */,
+				60BDB8A718476911006EC735 /* doctor_icon.png */,
+				60BDB8A818476911006EC735 /* loading.png */,
+				60BDB8A918476911006EC735 /* logo.png */,
+				60BDB8AA18476911006EC735 /* Screen 1.psd */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -305,8 +347,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				60BDB8A1184761C8006EC735 /* Main.storyboard in Resources */,
+				60BDB8AC18476911006EC735 /* background.png in Resources */,
 				60BDB89E18476128006EC735 /* Images.xcassets in Resources */,
+				60BDB8AD18476911006EC735 /* doctor_icon.png in Resources */,
+				60BDB8AF18476911006EC735 /* logo.png in Resources */,
+				60BDB8B018476911006EC735 /* Screen 1.psd in Resources */,
 				60BDB89D18476128006EC735 /* InfoPlist.strings in Resources */,
+				60BDB8AB18476911006EC735 /* activity_view.png in Resources */,
+				60BDB8AE18476911006EC735 /* loading.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
